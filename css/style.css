@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1140px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(212, 212, 212);
+}
+
+.box{
+    width: 220px;
+    height: 100%;
+    transition-duration: .8s;
+}
+
+.box1{
+    background-image: url(../===/VideoCapture_20210824-084902.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box2{
+    background-image: url(../===/VideoCapture_20210831-205723.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box3{
+    background-image: url(../===/VideoCapture_20210824-084914.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box4{
+    background-image: url(../===/VideoCapture_20210824-084932.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box5{
+    background-image: url(../===/VideoCapture_20210824-084937.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box:hover{
+    transform: scale(1.4);
+}
